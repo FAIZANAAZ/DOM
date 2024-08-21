@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.snak{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: absolute;
+  /* YE ISI LIYE LAGAYA HE TAKY jb hm div ko kkeydown sy move krway to position chang ho oski */
+}
