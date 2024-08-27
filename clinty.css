@@ -1,0 +1,21 @@
+
+
+
+.abc{
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+
+.bcolor{
+    background-color: blue;
+    transition: none 1s;
+    /* isy wo sari chizon pr transition lga dega is class ki */
+    transition: ease-in 1s;
+    /* iska matlb jb start hogi to smooth hogi or end me normal */
+    transition: ease-in 1s;
+    /* iska matlb jb end hogi to smooth hogi or start me normal */
+    transition: ease 1s;
+    /* isy wo start end dono me smooth hogi matlb aram aram sy */
+
+}
