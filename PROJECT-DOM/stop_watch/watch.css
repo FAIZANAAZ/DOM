@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 14, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch {
+    position: relative;
+    height: 220px;
+    width: 220px;
+    margin-top: 30px;
+    background-color: rgb(230, 216, 32);
+    border: solid 9px rgb(245, 235, 235);
+  
+  }
+  
+  .watch::before {
+    content: '';
+    position: absolute;
+
+   bottom: px;
+    right: 0.5px;
+    height: 186px;
+    width: 185px;
+    border: solid 8px;
+    border-image: linear-gradient(90deg, red, rgb(174, 233, 13), rgb(70, 70, 226)) 1;
+  }
+  
+  @keyframes rotate-border {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating::before {
+    animation: rotate-border 5s linear infinite;
+  }
+      /*  yani agar hum kisi bhi cheez ko aik waqt par chalaana chahain,
+    yani ye cheez usi waqt kaam kare jab hum chahain,
+    to is ke liye humein aik alag se class banani hogi aur
+    hm os  class me wo chiz dengy jo hmy os click hony pr chalani ho
+    usko addClassList ki madad se add karwana hoga.
+
+    hum ne kyun ke ::before likha hai rotating ki class ke sath,
+    isi liye usne sirf border ko run karwaya hai, puri div nahi ghumi
+    agr hm ::before nhi likhty to wo div pr bhi applay ho skti he.
+
+    agar TypeScript mein hum watch ki jagah kisi aur div ka naam likh kar
+    usme addClassList ke zariye rotating ko add karwaate,
+    to wo animation us par bhi apply ho jati. */
+
+
+.pr{
+    font-size: 40px;
+    color: rgb(31, 30, 32);
+    position: relative;
+    left: 30px;
+     top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 60px;
+    border-radius: 50px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top:80px;
+    left: 26px;
+    margin-left: 10px;
+    background-color: rgb(177, 46, 46);
+    color: antiquewhite;
+    padding-top: 2px;
+    
+    &:hover{
+      background-color: rgb(206, 73, 73);
+
+    }
+    }
+
+
+    .head-p{
+        position: absolute;
+        top: 40px;
+        color: aliceblue;
+        background-color: rgb(177, 46, 46);
+        border: dashed 5px rgb(245, 214, 38);
+        padding: 8px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }

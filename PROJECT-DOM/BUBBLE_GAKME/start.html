@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gametart</title>
+    <link rel="stylesheet" href="src/output.css">
+
+    <style>
+        /* Keyframes ko yahan define karein */
+        @keyframes abc {
+            from {
+               transform: scale(0.5);
+             
+            }
+            to {
+                transform: scale(1);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="background" class="  h-lvh  w-full  flex items-center justify-center " style="background-image: url(bubbleimag.jpg);background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <h1 id="mainh1" class="  h-[100px] flex items-center justify-center absolute right-[400px] bottom-[450px] w-[540px] bg-yellow-400 ml-10 border-dashed border-red-700 border-[10px] text-blue-800 font-bold text-[40px] animate-pulse">BUBBLE GAME 😉</h1>
+    <pre id="mainpre" class="bg-black mb-[40px] text-yellow-400 p-[10px] text-[30px] border-solid border-white rounded-[20px]  font-bold border-[10px]">YOU HAVE ONLY 1 MINUTE, AND YOU NEED **********
+************     TO SCORE 35 RUNS TO WIN THE GAME🏆🥇</pre>
+     <button id="startbtn" class="h-[70px] flex items-center justify-center absolute right-[850] rounded-[55px] bottom-[130px] w-[240px] bg-white ml-10 ridge-border border-black border-[10px] text-black font-bold text-[30px] hover:bg-yellow-600 " style="animation-duration: 3s; animation-delay:1s ; animation-name: abc;  ; animation-iteration-count: infinite; "><a href="http://127.0.0.1:5500/index.html">START NOW</a> </button>
+    </section>
+
+    </body>
+</html>
