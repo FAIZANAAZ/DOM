@@ -173,3 +173,27 @@ document.body.addEventListener("keydown",(e:any)=>{
 // traf move ho  x + "px" ka matlb kioky add ke braber hota jayga x or osmy hm left side px bhi nichy add krty jaygy
 // or ak x me + diya or ak x me - ak y me  + or ak me _ ka matlb ye he ke jb hm left likh kr - ka use krty hen to wo right bn jata h or top
 // pr kiya he to wo dawn ho jata he
+
+// //////////////////////////////////////////////////////////////////////////////////////
+
+// mouseenter mouseleave mousemove
+
+div.addEventListener("mouseleave",()=>{
+//  isy ye hoga ke mose jb jb div sy bahir jayga to wo kam hoga jo ismy hm likhengy
+       
+           
+   })
+   div.addEventListener("mousemove",()=>{
+      //  isy ye hoga ke mose jb jb div ke ander move hoga to wo kam hoga jo ismy hm likhengy
+             
+                 
+         })
+
+         div.addEventListener("mouseenter",()=>{
+            //  isy ye hoga ke mose jb jb div ky ander jayga to wo kam hoga jo ismy hm likhengy
+                   
+                       
+               })       
+
+
+// //////////////////////////////////////////////////////////////////////////////////////
