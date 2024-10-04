@@ -115,3 +115,29 @@ document.body?.addEventListener("keyup", (e) => {
 // traf move ho  x + "px" ka matlb kioky add ke braber hota jayga x or osmy hm left side px bhi nichy add krty jaygy
 // or ak x me + diya or ak x me - ak y me  + or ak me _ ka matlb ye he ke jb hm left likh kr - ka use krty hen to wo right bn jata h or top
 // pr kiya he to wo dawn ho jata he
+
+//********************************** keyup ,keydawn ****************************************** */
+   //////////////////////////////////////////////////////////////
+   form.addeventlitner("click",(e)=>{
+    e.preventDefault()
+    // isy hmara form khi or jakr submit nhi hoga jesy likh kr reload kro to sb gaib ho jata he wo ni hoga
+   })
+   //////////////////////////////////////////////////////////////
+
+   window.print()
+//    kisi btn pr ye lgaygy to wo print ho jayga option matlb open ho jayga
+
+   //////////////////////////////////////////////////////////////
+
+   window.location.href="./resume/resum.html"
+
+//    isy ye hoga ke hm jispr isko applay kengy btn click pr wo apni location chang krky os page pr le jayga
+
+   //////////////////////////////////////////////////////////////
+ 
+ window.addEventListener("load",()=>{
+// load sy ye hota he jb bhi page loade hota he to  wo chizen chlti hen jo ismy hm dengy 
+ }) 
+
+
+ 
